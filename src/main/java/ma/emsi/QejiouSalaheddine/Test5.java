@@ -1,7 +1,7 @@
 package ma.emsi.QejiouSalaheddine;
 
 import dev.langchain4j.data.document.Document;
-import dev.langchain4j.data.document.parser.apache.ApachePdfBoxDocumentParser; // <-- Sera en rouge
+import dev.langchain4j.data.document.parser.apache.ApachePdfBoxDocumentParser;
 import dev.langchain4j.data.embedding.Embedding;
 import dev.langchain4j.memory.chat.MessageWindowChatMemory;
 import dev.langchain4j.model.chat.ChatModel;
@@ -49,7 +49,7 @@ public class Test5 {
         System.out.println("Chargement du document cours.pdf...");
         Document document;
         try {
-            // Cette ligne sera en rouge, c'est normal
+
             ApachePdfBoxDocumentParser parser = new ApachePdfBoxDocumentParser();
             document = parser.parse(new FileInputStream("cours.pdf"));
         } catch (FileNotFoundException e) {
