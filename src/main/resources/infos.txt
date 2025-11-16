@@ -1,0 +1,5 @@
+Pierre est un étudiant en informatique qui vit à Casablanca.
+Il a un chat qui s'appelle Whiskers.
+Whiskers est un chat noir et blanc très joueur.
+Pierre aime programmer en Java et utilise LangChain4j pour ses projets d'IA.
+Son chat Whiskers adore dormir sur son clavier pendant qu'il code.
